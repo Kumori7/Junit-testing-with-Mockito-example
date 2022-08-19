@@ -1,15 +1,8 @@
 # Junit-testing-with-Mockito-example
 
+created a small spring boot application that connects with a Database using XAMMP, wrote Junit testcases for methods found in StudentServiceImpl layer. I did this by using Mockito to isolate my unit test by accessing a fake version of my database. this allowed me to test methods without communicating and writing or modifying data found in my database.
 
-
-
-
-
-
-
-
-
-
+When i called a method found in repository layer i returned a value in my testcases. 
 
 
 1) Junit test cases passing Screen shot
